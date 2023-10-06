@@ -27,7 +27,9 @@ CREATE TABLE epa_air_quality_full
 	site_longitude REAL
 );
 
-COPY epa_air_quality_full FROM '/Users/dwoodbridge/Class/2023_MSDS691/Example/Data/epa_air_quality_full.csv' CSV HEADER;
+COPY epa_air_quality_full
+FROM '/Users/dwoodbridge/Class/2023_MSDS691/Example/Data/epa_air_quality_full.csv'
+CSV HEADER;
 
 
 
